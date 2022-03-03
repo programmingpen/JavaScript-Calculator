@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>JavaScript Calculator</title>
+</head>
+<body>
+    <div class="JsCalculator">
+        <table>
+            <tr>
+                <td colspan="4"><input type="text" name="" id="displayMath"></td>
+            </tr>
+            <tr>
+                <td><input type="button" value="c" onClick="DeleteNumber()"></td>
+                <td><input type="button" name="" id="" value="(" onClick="TypeNumber('(')" /></td>
+                <td><input type="button" name="" id="" value=")" onClick="TypeNumber(')')" /></td>
+                <td><input type="button" name="" id="zero" value="0" onClick="TypeNumber()" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="" id="" value="7" onClick="TypeNumber('7')" /></td>
+                <td><input type="button" name="" id="" value="8" onClick="TypeNumber('8')" /></td>
+                <td><input type="button" name="" id="" value="9" onClick="TypeNumber('9')" /></td>
+                <td><input type="button" name="" id="" value="+" onClick="TypeNumber('+')" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="" id="" value="4" onClick="TypeNumber('4')" /></td>
+                <td><input type="button" name="" id="" value="5" onClick="TypeNumber('5')" /></td>
+                <td><input type="button" name="" id="" value="6" onClick="TypeNumber('6')" /></td>
+                <td><input type="button" name="" id="" value="-" onClick="TypeNumber('-')" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="" id="" value="1" onClick="TypeNumber('1')" /></td>
+                <td><input type="button" name="" id="" value="2" onClick="TypeNumber('2')" /></td>
+                <td><input type="button" name="" id="" value="3" onClick="TypeNumber('3')" /></td>
+                <td><input type="button" name="" id="" value="*" onClick="TypeNumber('*')" /></td>
+            </tr>
+            <tr>
+                <td><input type="button" name="" id="" value="0" onClick="TypeNumber('0')" /></td>
+                <td><input type="button" name="" id="" value="." onClick="TypeNumber('.')" /></td>
+                <td><input type="button" name="" id="" value="/" onClick="TypeNumber('/')" /></td>
+                <td><input type="button" name="" id="" value="=" onClick="GetAnswer()" /></td>
+            </tr>
+        </table>
+    </div>
+
+<script src="app.js"></script>
+</body>
+</html>
